@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HRM test suite]">
+  <test thread-count="5" name="Check user role TC(failed)">
+    <classes>
+      <class name="com.lao.testCases.Test_User_Role">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="checkUserRole"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.lao.testCases.Test_User_Role -->
+    </classes>
+  </test> <!-- Check user role TC(failed) -->
+</suite> <!-- Failed suite [HRM test suite] -->

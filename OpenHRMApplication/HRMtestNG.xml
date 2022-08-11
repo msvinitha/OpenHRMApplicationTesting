@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="HRMtestNG.xsd"?>
+<suite name = "HRM test suite">
+<test name="Pending leave request TC">
+<classes>
+<class name ="com.lao.testCases.Test_Pending_Leave_Request">
+</class>
+</classes>
+</test>
+
+<test name="Check user role TC">
+<classes>
+<class name ="com.lao.testCases.Test_User_Role">
+</class>
+</classes>
+</test> 
+
+</suite>

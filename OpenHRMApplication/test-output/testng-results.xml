@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-07T19:10:07 IST" name="HRM test suite" finished-at="2022-08-07T19:10:16 IST" duration-ms="9687">
+    <groups>
+    </groups>
+    <test started-at="2022-08-07T19:10:07 IST" name="Pending leave request TC" finished-at="2022-08-07T19:10:13 IST" duration-ms="6100">
+      <class name="com.lao.testCases.Test_Pending_Leave_Request">
+        <test-method signature="verifyPendingLeaveReq()[pri:0, instance:com.lao.testCases.Test_Pending_Leave_Request@5c30a9b0]" started-at="2022-08-07T19:10:07 IST" name="verifyPendingLeaveReq" finished-at="2022-08-07T19:10:13 IST" duration-ms="6056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPendingLeaveReq -->
+      </class> <!-- com.lao.testCases.Test_Pending_Leave_Request -->
+    </test> <!-- Pending leave request TC -->
+    <test started-at="2022-08-07T19:10:13 IST" name="Check user role TC" finished-at="2022-08-07T19:10:16 IST" duration-ms="3551">
+      <class name="com.lao.testCases.Test_User_Role">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.lao.testCases.Test_User_Role@479d31f3]" started-at="2022-08-07T19:09:57 IST" name="launchBrowser" finished-at="2022-08-07T19:10:07 IST" duration-ms="9308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkUserRole()[pri:0, instance:com.lao.testCases.Test_User_Role@479d31f3]" started-at="2022-08-07T19:10:13 IST" name="checkUserRole" finished-at="2022-08-07T19:10:16 IST" duration-ms="3551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserRole -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lao.testCases.Test_User_Role@479d31f3]" started-at="2022-08-07T19:10:16 IST" name="tearDown" finished-at="2022-08-07T19:10:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lao.testCases.Test_User_Role -->
+    </test> <!-- Check user role TC -->
+  </suite> <!-- HRM test suite -->
+</testng-results>
